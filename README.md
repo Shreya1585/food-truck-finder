@@ -54,7 +54,7 @@ function App() {
 
   return (
     <div>
-      <h1>Food Trucks in San Francisco</h1>
+      Food Trucks in San Francisco
       <ul>
         {foodTrucks.map(truck => (
           <li key={truck.id}>{truck.name}</li>
