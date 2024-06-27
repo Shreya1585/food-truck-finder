@@ -65,6 +65,7 @@ function App() {
 }
 
 export default App;
+
 **6. Develop the Command Line Interface (CLI)**
 Create a new directory for the CLI:
 
@@ -85,6 +86,7 @@ def get_taco_trucks(city):
 
 if __name__ == '__main__':
     get_taco_trucks()
+
 **7. Set Up Docker for Containerization**
 **Create a Dockerfile for the API:**
 
